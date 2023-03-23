@@ -1,13 +1,57 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+header{
+    background-color: aqua;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li{
+    display: inline;
 }
 
 
 
+.article h3{
+    display: grid;
+    margin-top: -10%;
+    margin-left: 16px;
+}
 
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
 
-.container a img{
+.article article img{
     height: 180px;
+    width: 100%;
 }
+
+#fisica {
+    background-color: rgba(7, 7, 238, 0.658);
+}
+
+.article article li{
+    display: grid;
+    margin: 8px 32px;
+}
+
+.article article {
+    display: flex;
+    align-items: center;
+
+}
+
+.article article p{
+    margin-right: auto;
+}
+
+
